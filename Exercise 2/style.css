@@ -16,6 +16,7 @@ h1{
 }
 p{
 	color:#555555;
+	width:55%;
 }
 .static {
 	position: fixed;
@@ -39,4 +40,17 @@ h3{
 }
 ul{
 	color:#555555;
+	width:55%;
+}
+.text1 {
+	margin: 0px 300px 0px 0px;
+}
+#one{
+	margin:0 300px 0 0;
+}
+.container{
+	color:#555555;
+}
+.parts{
+	margin:0 0 0 40px;
 }
