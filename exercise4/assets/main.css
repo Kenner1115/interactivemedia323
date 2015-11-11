@@ -1,0 +1,203 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #d2ffd2;
+	position: relative;
+}
+.object{position: absolute;}
+
+.black{
+	width:210px;
+	height:100px;
+	background-color: black;
+	bottom: -100px;
+	z-index: 2;
+	left: 30px;
+}
+
+.liner-container{
+	height:300px;
+	width:300px;
+	bottom:0px;
+	left:100px;
+}
+
+.square{
+	bottom: 0px;
+	left: 50px;
+	width: 130px;
+	height: 100px;
+	background-color: #fea9ca;
+	z-index: 0;
+}
+.ovalone{
+	width: 150px;
+	height: 50px;
+	background: #d2ffd2;
+	border-radius:100%;
+	left:115px;
+	bottom:25px;
+	z-index: 0;
+}
+.ovaltwo{
+	width: 150px;
+	height: 50px;
+	background: #d2ffd2;
+	border-radius:100%;
+	left:-35px;
+	bottom:25px;
+	z-index: 0;
+
+}
+.cupcake{
+	width: 140px;
+	height: 35px;
+	background: #663300;
+	border-radius:100%;
+	top:175px;
+	left: 44px;
+	z-index: 1;
+}
+.frostingone{
+	width:120px;
+	height:35px;
+	background:#fffdd0;
+	border-radius:100%;
+	top:165px;
+	left:55px;
+	z-index: 2;
+}
+.frostingtwo{
+	width:100px;
+	height:35px;
+	background:#fffdd0;
+	border-radius:100%;
+	top:150px;
+	left:65px;
+	z-index: 2;
+}
+.frostingthree{
+	width:80px;
+	height:35px;
+	background:#fffdd0;
+	border-radius:100%;
+	top:135px;
+	left:75px;
+	z-index: 2;
+}
+.frostingfour{
+	width:60px;
+	height:35px;
+	background:#fffdd0;
+	border-radius:100%;
+	top:120px;
+	left:85px;
+	z-index: 2;
+}
+.point {
+  width: 0px;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 100px solid #fffdd0;
+	top:70px;
+	left: 85px;
+}
+.moon {
+  width: 80px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #d2ffd2;
+  top:20px;
+  left:35px;
+  z-index: 0;
+  transform:rotate(30deg);
+}
+.canvastwo {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: #fffdd0;
+	position: relative;
+}
+.computer-container{
+
+	
+}
+.screen{
+	border-radius: 25px;
+    background: black;
+    padding: 20px; 
+    width: 300px;
+    height: 220px; 
+    top: 200px;
+    left:200px;
+}
+.greybottom{
+	border-radius: 25px;
+    background: #c4c4c4;
+    padding: 20px; 
+    width: 300px;
+    height: 50px; 
+    top: 370px;
+    left:200px;
+}
+.blacktwo{
+	width: 300px;
+	height: 50px;
+	background-color: black;
+	top:340px;
+	left: 200px;
+}
+.blackdot{
+	border-radius: 50%;
+	width: 20px;
+	height: 20px; 
+	background-color: black;
+	top:395px;
+	left: 337px;
+}
+.greyscreen{
+	background: #c4c4c4;
+	top:220px;
+	left:225px;
+	width: 250px;
+	height: 150px;
+}
+.stand{
+	border-radius: 25px;
+    background: #c4c4c4;
+    padding: 20px; 
+    width: 150px;
+    height: 20px; 
+    top: 490px;
+    left:269px;
+}
+.standtwo{
+	 height: 0;
+ 	width: 145px;
+ 	border-bottom: 50px solid #c4c4c4;
+ 	border-left: 50px solid transparent;
+ 	border-right: 50px solid transparent;
+ 	padding: 0 8px 0 0;
+ 	top:450px;
+ 	left: 272px;
+}
+.standthree{
+	background-color: #c4c4c4;
+	width:67px;
+	height: 60px;
+	top:420px;
+	left:310px;
+}
+
+
