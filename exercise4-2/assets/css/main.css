@@ -47,6 +47,7 @@ body {
 	left:115px;
 	bottom:25px;
 	z-index: 0;
+	Transform:rotate(-90deg);
 }
 .ovaltwo{
 	width: 150px;
@@ -56,6 +57,7 @@ body {
 	left:-35px;
 	bottom:25px;
 	z-index: 0;
+	Transform:rotate(-90deg);
 
 }
 .cupcake{
